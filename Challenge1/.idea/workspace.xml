@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6448586-2427-433a-ab30-ee3c135cfc23" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d5ZJW9dTR2vTFHwTKoOVni0aeW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Kotlin.SecondKt">
+    <configuration name="FirstKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Challenge1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="basics.FirstKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Challenge1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="basics.SecondKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.SecondKt" />
+        <item itemvalue="Kotlin.FirstKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6448586-2427-433a-ab30-ee3c135cfc23" name="Default Changelist" comment="" />
+      <created>1591716842516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591716842516</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="449" height="466" key="DebuggerActiveHint" timestamp="1591718634898">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="449" height="466" key="DebuggerActiveHint/0.23.1792.1022@0.23.1792.1022" timestamp="1591718634898" />
+    <state width="1564" height="269" key="GridCell.Tab.0.bottom" timestamp="1591718898357">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1021@0.23.1792.1021" timestamp="1591717627846" />
+    <state width="1564" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1591718898357" />
+    <state width="1564" height="269" key="GridCell.Tab.0.center" timestamp="1591718898356">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="269" key="GridCell.Tab.0.center/0.23.1792.1021@0.23.1792.1021" timestamp="1591717627845" />
+    <state width="1564" height="269" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1591718898356" />
+    <state width="1564" height="269" key="GridCell.Tab.0.left" timestamp="1591718898355">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="269" key="GridCell.Tab.0.left/0.23.1792.1021@0.23.1792.1021" timestamp="1591717627844" />
+    <state width="1564" height="269" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1591718898355" />
+    <state width="1564" height="269" key="GridCell.Tab.0.right" timestamp="1591718898357">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="269" key="GridCell.Tab.0.right/0.23.1792.1021@0.23.1792.1021" timestamp="1591717627845" />
+    <state width="1564" height="269" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1591718898357" />
+    <state width="1564" height="332" key="GridCell.Tab.1.bottom" timestamp="1591718878874">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="332" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1591718878874" />
+    <state width="1564" height="332" key="GridCell.Tab.1.center" timestamp="1591718878873">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="332" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1591718878873" />
+    <state width="1564" height="332" key="GridCell.Tab.1.left" timestamp="1591718878873">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="332" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1591718878873" />
+    <state width="1564" height="332" key="GridCell.Tab.1.right" timestamp="1591718878874">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1564" height="332" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1591718878874" />
+    <state x="420" y="159" key="SettingsEditor" timestamp="1591716991937">
+      <screen x="0" y="23" width="1792" height="1021" />
+    </state>
+    <state x="420" y="159" key="SettingsEditor/0.23.1792.1021@0.23.1792.1021" timestamp="1591716991937" />
+  </component>
+</project>
