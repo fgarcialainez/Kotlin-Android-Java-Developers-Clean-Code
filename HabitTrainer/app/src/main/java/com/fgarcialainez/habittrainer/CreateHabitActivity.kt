@@ -66,6 +66,9 @@ class CreateHabitActivity : AppCompatActivity() {
             displayErrorMessage("There has been an error storing the habit")
         }
         else {
+            // Set result
+            setResult(Activity.RESULT_OK)
+
             // Close the Activity
             finish()
         }

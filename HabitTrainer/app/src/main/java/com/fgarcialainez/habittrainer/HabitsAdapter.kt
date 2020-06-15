@@ -13,15 +13,25 @@ class HabitsAdapter(val context: Context) : RecyclerView.Adapter<HabitsAdapter.H
 
     private var habits = mutableListOf<Habit>()
 
+    init {
+        // Read habits from DB
+        readHabits()
+    }
+
     fun refreshData() {
         // Clear previous habits
         habits.clear()
 
         // Read habits from DB
-        habits.addAll(HabitDbTable(context).readAllHabits())
+        readHabits()
 
         // Update data
         notifyDataSetChanged()
+    }
+
+    private fun readHabits() {
+        // Read habits from DB
+        habits.addAll(HabitDbTable(context).readAllHabits())
     }
 
     class HabitViewHolder(val card: View) : RecyclerView.ViewHolder(card)
