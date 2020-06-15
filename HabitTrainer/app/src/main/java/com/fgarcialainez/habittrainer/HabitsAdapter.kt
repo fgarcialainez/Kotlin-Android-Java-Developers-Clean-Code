@@ -1,12 +1,28 @@
 package com.fgarcialainez.habittrainer
 
+import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.fgarcialainez.habittrainer.db.HabitDbTable
+import com.fgarcialainez.habittrainer.model.Habit
 import kotlinx.android.synthetic.main.single_card.view.*
 
-class HabitsAdapter(val habits: List<Habit>) : RecyclerView.Adapter<HabitsAdapter.HabitViewHolder>() {
+class HabitsAdapter(val context: Context) : RecyclerView.Adapter<HabitsAdapter.HabitViewHolder>() {
+
+    private var habits = mutableListOf<Habit>()
+
+    fun refreshData() {
+        // Clear previous habits
+        habits.clear()
+
+        // Read habits from DB
+        habits.addAll(HabitDbTable(context).readAllHabits())
+
+        // Update data
+        notifyDataSetChanged()
+    }
 
     class HabitViewHolder(val card: View) : RecyclerView.ViewHolder(card)
 
@@ -25,6 +41,6 @@ class HabitsAdapter(val habits: List<Habit>) : RecyclerView.Adapter<HabitsAdapte
 
         holder.card.tv_title.text = habit.title
         holder.card.tv_description.text = habit.description
-        holder.card.iv_icon.setImageResource(habit.image)
+        holder.card.iv_icon.setImageBitmap(habit.image)
     }
 }

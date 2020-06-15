@@ -9,14 +9,27 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    private var adapter: HabitsAdapter? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Setup adapter
+        adapter = HabitsAdapter(this)
+
         // Setup recycler view
         rv.setHasFixedSize(true)
         rv.layoutManager = LinearLayoutManager(this)
-        rv.adapter = HabitsAdapter(getSampleHabits())
+        rv.adapter = adapter
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        // Refresh data
+        adapter?.refreshData()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

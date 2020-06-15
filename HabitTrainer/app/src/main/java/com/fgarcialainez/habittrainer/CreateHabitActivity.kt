@@ -4,12 +4,14 @@ import android.app.Activity
 import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
 import android.widget.EditText
+import com.fgarcialainez.habittrainer.db.HabitDbTable
+import com.fgarcialainez.habittrainer.model.Habit
 import kotlinx.android.synthetic.main.activity_create_habit.*
 import java.io.IOException
 
@@ -53,7 +55,20 @@ class CreateHabitActivity : AppCompatActivity() {
         }
 
         // Store the habit...
-        tv_error.visibility = View.INVISIBLE
+        val title = et_title.text.toString()
+        val description = et_description.text.toString()
+        val habit = Habit(title, description, imageBitmap!!)
+
+        val id = HabitDbTable(this).store(habit)
+
+        if(id == -1L) {
+            // Display an error message
+            displayErrorMessage("There has been an error storing the habit")
+        }
+        else {
+            // Close the Activity
+            finish()
+        }
     }
 
     private fun readBitmap(data: Uri): Bitmap? {
